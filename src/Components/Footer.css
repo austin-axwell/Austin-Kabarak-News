@@ -1,0 +1,32 @@
+.footer{
+    width: 100vw;
+    margin-top: 150px;
+    height:auto;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 50px;
+
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    
+ul{
+    cursor: pointer;
+}
+
+
+.footer_column{
+    height:300px;
+    width:100%;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 12px;
+}
